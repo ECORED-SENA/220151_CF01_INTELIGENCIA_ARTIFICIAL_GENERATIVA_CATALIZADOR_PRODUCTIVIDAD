@@ -59,7 +59,7 @@
       .row.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_1.fit___box_6.fit___box_14(data-aos="fade-right")
-            p.mb-0 La efectividad de este tipo de búsquedas depende de la aplicación de principios de estructuración del prompt, especialmente el uso de delimitadores para separar claramente la base documental de las instrucciones de análisis. Esta práctica evita que el modelo interprete los datos de entrada como órdenes directas y contribuye a reducir alucinaciones factuales durante el procesamiento de información.
+            p.mb-0 La efectividad de este tipo de búsquedas depende de la aplicación de principios de estructuración del #[i prompt], especialmente el uso de delimitadores para separar claramente la base documental de las instrucciones de análisis. Esta práctica evita que el modelo interprete los datos de entrada como órdenes directas y contribuye a reducir alucinaciones factuales durante el procesamiento de información.
         .col-xl-auto.d-none.d-xl-block(data-aos="fade-left")
           figure
             img(src="@/assets/curso/temas/t5/img6.png", alt="").m-auto
@@ -81,7 +81,7 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Proceso técnico:] se implementa un super-prompt que combina el patrón Persona (farmacólogo clínico)  con una técnica de #[i Chain-of-Thought]. La instrucción aplicada es:
+                | #[b Proceso técnico:] se implementa un #[i super-prompt] que combina el patrón Persona (farmacólogo clínico)  con una técnica de #[i Chain-of-Thought]. La instrucción aplicada es:
             p.fit___p_box_6 #[b  “Analice secuencialmente cada protocolo; identifique interacciones críticas; genere un cuadro comparativo de riesgos”.]
             ul.fa-ul.estilo___ul.mb-0
               li.mb-0
@@ -107,7 +107,7 @@
             .col-xl
               figure.mb-2.d-none.d-xl-block(data-aos="fade-left")
                 img(src='@/assets/curso/temas/t5/img9.svg', alt='' style="width: 75px")
-              p.mb-0 Estos artefactos pueden incluir scripts de programación, archivos estructurados o instrucciones técnicas orientadas a interactuar con sistemas operativos, bases de datos o interfaces de programación de aplicaciones (#[i Application Programming Interfaces] [API]).
+              p.mb-0 Estos artefactos pueden incluir #[i scripts] de programación, archivos estructurados o instrucciones técnicas orientadas a interactuar con sistemas operativos, bases de datos o interfaces de programación de aplicaciones (#[i Application Programming Interfaces] [API]).
           p.mb-5 Mediante la ingeniería de #[i prompts], es posible diseñar flujos de trabajo destinados a automatizar tareas repetitivas de baja complejidad cognitiva y alto consumo de tiempo operativo. A continuación, se presentan algunos ejemplos de automatización mediante IA:
           .bg___carrusel
             .px-5
@@ -136,7 +136,7 @@
                       img(src='@/assets/curso/temas/t5/img13.svg' style="max-width: 90px").m-auto
                   h4.mb-3.estilo-text Automatización documental
                   p.mb-0.text-center Clasificación y distribución de archivos mediante reglas predefinidas.
-              p.mb-5 En este contexto, el aprendiz debe desarrollar la capacidad de instruir al modelo para generar scripts, por ejemplo en PowerShell o Python, que interactúen con sistemas operativos o servicios externos para optimizar procesos reales de la organización.
+              p.mb-5 En este contexto, el aprendiz debe desarrollar la capacidad de instruir al modelo para generar #[i scripts], por ejemplo en PowerShell o Python, que interactúen con sistemas operativos o servicios externos para optimizar procesos reales de la organización.
               .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
                 .col-lg-auto
                   figure

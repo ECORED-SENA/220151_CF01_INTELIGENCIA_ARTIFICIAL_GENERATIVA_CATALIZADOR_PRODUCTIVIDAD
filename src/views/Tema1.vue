@@ -115,7 +115,7 @@
             .bloque-texto-g__img(
               :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img14.jpg')})` }")
             .bloque-texto-g__texto.p-4
-              p.mb-0 En este contexto, la IAG actúa como un catalizador de la productividad en industrias tan diversas como la salud, el marketing, el derecho y el desarrollo de #[i software]. Su capacidad para automatizar procesos cognitivos, optimizar flujos de trabajo y generar contenido especializado está transformando la manera en que las organizaciones producen valor y toman decisiones.
+              p.mb-0 En este contexto, la IAG actúa como un catalizador de la productividad en industrias tan diversas como la salud, el #[i marketing], el derecho y el desarrollo de #[i software]. Su capacidad para automatizar procesos cognitivos, optimizar flujos de trabajo y generar contenido especializado está transformando la manera en que las organizaciones producen valor y toman decisiones.
           p.mb-5 Desde una perspectiva de mejora continua, se estima que para el año 2030 el impacto económico global de la IA podría alcanzar los 14 billones de euros, duplicando las tasas de crecimiento económico en los países que logren integrar estas herramientas de manera estratégica. A continuación, se sintetizan algunos de los principales impactos de la inteligencia artificial generativa (IAG) en distintos sectores productivos:
           .bg___carrusel
             .px-5
@@ -135,7 +135,7 @@
                       .row.justify-content-center.mb-3
                         .col-8
                           img(src='@/assets/curso/temas/t1/img17.svg' style="max-width: 90px").m-auto
-                      h4.mb-3.estilo-text Marketing
+                      h4.mb-3.estilo-text #[i Marketing]
                       p.mb-0.text-center Generación automatizada de contenidos, segmentación avanzada y análisis predictivo del comportamiento del consumidor.
                     .tarjeta.color-acento-botones.p-4
                       .row.justify-content-center.mb-3
@@ -152,7 +152,7 @@
               p.mb-0 Esta transformación exige que el aprendiz desarrolle competencias avanzadas no solo en la operación de herramientas basadas en IA, sino también en la comprensión ética, crítica y técnica de los algoritmos que sustentan esta nueva era industrial.
               Separador
               #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-                h2 1.2 Arquitectura técnica: tokens y modelos de lenguaje de gran escala (LLM)
+                h2 1.2 Arquitectura técnica: #[i tokens] y modelos de lenguaje de gran escala (LLM)
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_2.fit___box_1(data-aos="fade-right")
@@ -188,7 +188,7 @@
                   img(src='@/assets/curso/temas/t1/img23.jpg', alt='').m-auto
               .col-xl.fit___box_container
                 p.mb-0 Si el texto se asimila a una construcción compleja, los #[i tokens] corresponden a las piezas individuales o bloques que, al combinarse bajo rigurosas reglas estadísticas y patrones de datos, permiten generar contenido coherente. La operación de un LLM se define técnicamente como un sistema de predicción de cadenas de texto.
-      p.mb-5 Cuando recibe un estímulo (prompt), el modelo analiza la secuencia previa de #[i tokens] y calcula, con base en miles de millones de parámetros, cuál es el siguiente token con mayor probabilidad de ocurrencia dentro de un contexto específico. Es fundamental subrayar que este proceso no implica una “comprensión” biológica, sino una asociación probabilística de alta precisión aprendida durante el entrenamiento.
+      p.mb-5 Cuando recibe un estímulo (#[i prompt]), el modelo analiza la secuencia previa de #[i tokens] y calcula, con base en miles de millones de parámetros, cuál es el siguiente token con mayor probabilidad de ocurrencia dentro de un contexto específico. Es fundamental subrayar que este proceso no implica una “comprensión” biológica, sino una asociación probabilística de alta precisión aprendida durante el entrenamiento.
       .box___style_6(data-aos="zoom-in")
         h5 Ejemplo técnico de tokenización: optimización en la gestión administrativa y jurídica
         p La aplicación práctica de esta arquitectura resulta especialmente relevante en sectores con alta densidad de información, como el apoyo administrativo y el sector jurídico, donde el potencial de transformación mediante IA es altamente significativo. A continuación, se describe un escenario aplicado:
@@ -300,25 +300,25 @@
           thead
             tr
               th.ajuste-border-tabla.texto-left Característica
-              th.ajuste-border-tabla.texto-left IA paramétrica (Generativa)
+              th.ajuste-border-tabla.texto-left IA paramétrica generativa
               th.texto-left IA consultiva (RAG)
           tbody
             tr
               td.ajuste-border-tabla.texto-left.text-weight-bold Objetivo principal
-              td.ajuste-border-tabla.texto-left Fluidez y coherencia conversacional
-              td.texto-left Precisión, fiabilidad y fundamentación
+              td.ajuste-border-tabla.texto-left Fluidez y coherencia conversacional.
+              td.texto-left Precisión, fiabilidad y fundamentación.
             tr.ajuste-color-tabla
               td.ajuste-border-tabla.texto-left.text-weight-bold Fuente de datos
-              td.ajuste-border-tabla.texto-left Paramétrica, interna y estática
-              td.texto-left Externa, curada y dinámica
+              td.ajuste-border-tabla.texto-left Paramétrica, interna y estática.
+              td.texto-left Externa, curada y dinámica.
             tr
               td.ajuste-border-tabla.texto-left.text-weight-bold Transparencia
-              td.ajuste-border-tabla.texto-left Baja, debido al efecto de “caja negra”
-              td.texto-left Alta, gracias a la capacidad de citar fuentes
+              td.ajuste-border-tabla.texto-left Baja, debido al efecto de “caja negra”.
+              td.texto-left Alta, gracias a la capacidad de citar fuentes.
             tr.ajuste-color-tabla
               td.ajuste-border-tabla.texto-left.text-weight-bold Riesgo de error
-              td.ajuste-border-tabla.texto-left Alto, por fabricación de hechos “por diseño”
-              td.texto-left Bajo en fabricación; persiste un riesgo residual de síntesis
+              td.ajuste-border-tabla.texto-left Alto, por fabricación de hechos “por diseño”.
+              td.texto-left Bajo en fabricación; persiste un riesgo residual de síntesis.
       .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
         h4.mb-0 Veracidad y trazabilidad en la productividad 
       p.mb-5 En el sector productivo, la diferencia entre ambos paradigmas resulta crítica para la toma de decisiones. La capacidad de verificar la procedencia de la información puede determinar la confiabilidad de procesos administrativos, jurídicos o industriales. En el siguiente escenario aplicado, se requiere identificar la última actualización de un protocolo de seguridad industrial:
@@ -364,7 +364,7 @@
               figure
                 img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
             .col
-              h3 IA como Infraestructura (IaaS - #[i Infrastructure as a Service])
+              h3 IA como Infraestructura (IaaS: #[i Infrastructure as a Service])
           p.mb-5 El modelo IaaS proporciona los recursos de #[i hardware] subyacentes necesarios para entrenar, ajustar o desplegar modelos de lenguaje de gran escala. En un nivel técnico avanzado, es fundamental comprender que el “motor” de la IAG no opera sobre unidades centrales de procesamiento (CPU) convencionales, sino sobre #[i hardware] especializado en cálculo paralelo masivo. A continuación, se describen los principales componentes de esta infraestructura:
           .row.align-items-center.mb-5
             .col-xl-auto(data-aos="fade-right")
@@ -386,7 +386,7 @@
           figure
             img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
         .col
-          h3 IA como #[i software] (SaaS - #[i Software as a Service])
+          h3 IA como #[i software] (SaaS: #[i Software as a Service])
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_2.fit___box_2(data-aos="fade-right")
@@ -426,7 +426,7 @@
                 img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
             .col
               h3 Caso de uso: hibridación para la mejora continua
-          p.mb-5 A continuación, se presenta un escenario aplicado en el sector de desarrollo de software, donde una organización busca implementar un asistente técnico privado orientado al apoyo de aprendices y desarrolladores. El objetivo de esta arquitectura híbrida consiste en combinar las ventajas de la infraestructura privada (IaaS) con las capacidades avanzadas de procesamiento lingüístico proporcionadas por servicios SaaS, garantizando productividad, seguridad y eficiencia operativa.
+          p.mb-5 A continuación, se presenta un escenario aplicado en el sector de desarrollo de #[i software], donde una organización busca implementar un asistente técnico privado orientado al apoyo de aprendices y desarrolladores. El objetivo de esta arquitectura híbrida consiste en combinar las ventajas de la infraestructura privada (IaaS) con las capacidades avanzadas de procesamiento lingüístico proporcionadas por servicios SaaS, garantizando productividad, seguridad y eficiencia operativa.
           .row.justify-content-center.mb-5
             .col-xl-10
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")

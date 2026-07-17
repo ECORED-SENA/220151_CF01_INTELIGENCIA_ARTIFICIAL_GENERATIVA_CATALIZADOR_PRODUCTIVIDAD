@@ -12,7 +12,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/intro/img1.jpg')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 La capacidad de utilizar la IAG se ha convertido en una competencia esencial para la innovación y la competitividad en industrias tan diversas como la salud, la manufactura y el desarrollo de #[i software]. La implementación estratégica de estas herramientas permite automatizar tareas complejas, mejorar la toma de decisiones y reducir significativamente el esfuerzo operativo, actuando como un motor de #[b mejora continua] en el sector productivo.
+          p.mb-0 La capacidad de utilizar la IAG se ha convertido en una competencia esencial para la innovación y la competitividad en sectores como la salud, la manufactura y el desarrollo de #[i software]. La implementación estratégica de estas herramientas permite automatizar tareas complejas, mejorar la toma de decisiones y reducir significativamente el esfuerzo operativo, actuando como un motor de #[b mejora continua] en el sector productivo.
       .row.align-items-center
         .col-xl.mb-4.mb-lg-0
           .box___style_1(data-aos="fade-right")

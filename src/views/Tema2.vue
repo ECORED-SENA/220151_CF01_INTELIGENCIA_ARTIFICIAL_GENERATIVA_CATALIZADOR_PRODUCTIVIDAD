@@ -25,7 +25,7 @@
                   .row.justify-content-center.align-items-center
                     .col-xl-6.mb-4
                       h4 Generadores de texto (LLM y #[i chatbots])
-                      p Especializados en Procesamiento de Lenguaje Natural (#[i Natural Language Processing] [NLP]). Estas plataformas constituyen el núcleo de la interacción humano-máquina contemporánea, ya que generan respuestas coherentes mediante la predicción probabilística de tokens. 
+                      p Especializados en Procesamiento de Lenguaje Natural (#[i Natural Language Processing] [NLP]). Estas plataformas constituyen el núcleo de la interacción humano-máquina contemporánea, ya que generan respuestas coherentes mediante la predicción probabilística de #[i tokens]. 
                       p.mb-0 Entre las principales referencias se encuentran ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google) y DeepSeek. Actualmente, muchas de estas plataformas evolucionan hacia modelos multimodales que integran visión artificial, procesamiento de voz y generación de imágenes.
                     .col-xl-6
                       figure

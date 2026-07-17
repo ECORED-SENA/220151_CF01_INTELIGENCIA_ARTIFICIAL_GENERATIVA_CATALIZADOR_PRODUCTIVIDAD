@@ -20,7 +20,7 @@
               :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img2.jpg')})` }")
             .bloque-texto-g__texto.p-4
               p.mb-0 Su objetivo principal consiste en orientar la interacción con la inteligencia artificial para maximizar el rendimiento del sistema y la relevancia de los resultados generados. En este sentido, el #[i prompting] funciona como un puente de programación entre el lenguaje humano y el lenguaje computacional (Méndez Solano, Durán Campos y Quirós Artiñano, 2024).
-          p.mb-0 La calidad de un #[i prompt] influye directamente en la precisión, coherencia y utilidad del output producido por el modelo, especialmente en contextos técnicos, académicos y empresariales donde la reducción del margen de error resulta crítica.
+          p.mb-0 La calidad de un #[i prompt] influye directamente en la precisión, coherencia y utilidad del #[i output] producido por el modelo, especialmente en contextos técnicos, académicos y empresariales donde la reducción del margen de error resulta crítica.
           Separador
           #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 4.1 Anatomía y estructura técnica de un #[i prompt]
@@ -89,7 +89,7 @@
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold < >
                       td.texto-left Funciona como marcador estructurado, similar a XML o HTML, para delimitar etiquetas o categorías de contenido.
-          p.mb-5 Su función principal consiste en establecer fronteras precisas entre instrucciones, contexto, datos de entrada y ejemplos, permitiendo que el modelo de lenguaje de gran escala (Large Language Model [LLM]) procese cada bloque de información de manera organizada y eficiente. Dentro de la ingeniería de prompts, los delimitadores desempeñan las siguientes funciones:
+          p.mb-5 Su función principal consiste en establecer fronteras precisas entre instrucciones, contexto, datos de entrada y ejemplos, permitiendo que el modelo de lenguaje de gran escala (#[i Large Language Model] [LLM]) procese cada bloque de información de manera organizada y eficiente. Dentro de la ingeniería de prompts, los delimitadores desempeñan las siguientes funciones:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -104,7 +104,7 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Organización sistemática del contenido
-                  p.mb-0 Facilitan la estructuración de información compleja mediante encabezados como ###Instrucción### o ###Ejemplo###, mejorando la lógica interna del #[i prompt].
+                  p.mb-0 Facilitan la estructuración de información compleja mediante encabezados como ### Instrucción ### o ### Ejemplo ###, mejorando la lógica interna del #[i prompt].
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t4/img7.png', alt='' style="max-width: 500px").m-auto
@@ -122,7 +122,7 @@
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t4/img9.png', alt='' style="max-width: 500px").m-auto
-      p.mb-5 En términos técnicos, los delimitadores funcionan como un mecanismo de programación en lenguaje natural, permitiendo organizar la arquitectura del prompt de forma más coherente, precisa y eficiente. Su correcta implementación reduce errores interpretativos, mejora la calidad del #[i output] y fortalece la capacidad del modelo para ejecutar tareas complejas dentro de contextos profesionales y productivos.
+      p.mb-5 En términos técnicos, los delimitadores funcionan como un mecanismo de programación en lenguaje natural, permitiendo organizar la arquitectura del #[i prompt] de forma más coherente, precisa y eficiente. Su correcta implementación reduce errores interpretativos, mejora la calidad del #[i output] y fortalece la capacidad del modelo para ejecutar tareas complejas dentro de contextos profesionales y productivos.
       .color___box_3
         .px-5
           .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
@@ -130,14 +130,14 @@
               figure
                 img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
             .col
-              h3 Ejemplo: arquitectura de un prompt para la productividad
-          p.mb-5 A continuación, se presenta la aplicación práctica de la anatomía de un prompt en un escenario orientado a la mejora continua dentro del sector administrativo. El objetivo consiste en estructurar instrucciones precisas que permitan al modelo de lenguaje de gran escala generar resultados coherentes, contextualizados y técnicamente útiles para la toma de decisiones organizacionales.
+              h3 Ejemplo: arquitectura de un #[i prompt] para la productividad
+          p.mb-5 A continuación, se presenta la aplicación práctica de la anatomía de un #[i prompt] en un escenario orientado a la mejora continua dentro del sector administrativo. El objetivo consiste en estructurar instrucciones precisas que permitan al modelo de lenguaje de gran escala generar resultados coherentes, contextualizados y técnicamente útiles para la toma de decisiones organizacionales.
           TabsA.color-acento-botones.mb-5(data-aos="zoom-in")
             .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 1. Contexto")
               .row.align-items-center
                 .col-lg.order-1.mb-4.mb-lg-0
                   h4 Paso 1. Contexto
-                  p.mb-0 ###Contexto### Actúe como un consultor sénior en gestión de calidad y procesos organizacionales, con amplia experiencia en implementación de normas ISO.
+                  p.mb-0 ### Contexto ### Actúe como un consultor sénior en gestión de calidad y procesos organizacionales, con amplia experiencia en implementación de normas ISO.
                 .col-lg-auto.order-2
                   figure
                     img(src="@/assets/curso/temas/t4/img10.svg", alt="" style="max-width: 130px").m-auto
@@ -145,7 +145,7 @@
               .row.align-items-center
                 .col-lg.order-1.mb-4.mb-lg-0
                   h4 Paso 2. Instrucción
-                  p.mb-0 ###Instrucción### Analice el siguiente informe de hallazgos de una auditoría interna e identifique los tres riesgos de mayor impacto para la continuidad del negocio. Posteriormente, proponga medidas correctivas inmediatas para cada caso.
+                  p.mb-0 ### Instrucción ### Analice el siguiente informe de hallazgos de una auditoría interna e identifique los tres riesgos de mayor impacto para la continuidad del negocio. Posteriormente, proponga medidas correctivas inmediatas para cada caso.
                 .col-lg-auto.order-2
                   figure
                     img(src="@/assets/curso/temas/t4/img11.svg", alt="" style="max-width: 130px").m-auto
@@ -153,7 +153,7 @@
               .row.align-items-center
                 .col-lg.order-1.mb-4.mb-lg-0
                   h4 Paso 3. Datos de entrada
-                  p.mb-0 ###Datos de Entrada### """ 1. Se detectó una falta de actualización en los respaldos de la base de datos de clientes desde hace 45 días. 2. El 30 % del personal nuevo no ha completado el módulo de capacitación sobre seguridad de la información. 3. El proveedor principal de suministros presenta retrasos logísticos recurrentes en la última milla. """
+                  p.mb-0 ### Datos de Entrada ### """ 1. Se detectó una falta de actualización en los respaldos de la base de datos de clientes desde hace 45 días. 2. El 30 % del personal nuevo no ha completado el módulo de capacitación sobre seguridad de la información. 3. El proveedor principal de suministros presenta retrasos logísticos recurrentes en la última milla. """
                 .col-lg-auto.order-2
                   figure
                     img(src="@/assets/curso/temas/t4/img12.svg", alt="" style="max-width: 130px").m-auto
@@ -161,7 +161,7 @@
               .row.align-items-center
                 .col-lg.order-1.mb-4.mb-lg-0
                   h4 Paso 4. Indicadores de formato
-                  p.mb-0 ###Indicadores de Formato### Presente los resultados en un cuadro con tres columnas: “Riesgo identificado”, “Impacto potencial” y “Acción correctiva sugerida”. No exceda las 200 palabras en total.
+                  p.mb-0 ### Indicadores de Formato ### Presente los resultados en un cuadro con tres columnas: “Riesgo identificado”, “Impacto potencial” y “Acción correctiva sugerida”. No exceda las 200 palabras en total.
                 .col-lg-auto.order-2
                   figure
                     img(src="@/assets/curso/temas/t4/img13.svg", alt="" style="max-width: 130px").m-auto
@@ -169,7 +169,7 @@
               .row.align-items-center
                 .col-lg.order-1.mb-4.mb-lg-0
                   h4 Paso 5. Tono y audiencia
-                  p.mb-0 ###Tono y Audiencia### Utilice un tono profesional, ejecutivo y directo. El informe está dirigido a la junta directiva de la organización, por lo que debe enfatizar la mitigación de riesgos operativos.
+                  p.mb-0 ### Tono y Audiencia ### Utilice un tono profesional, ejecutivo y directo. El informe está dirigido a la junta directiva de la organización, por lo que debe enfatizar la mitigación de riesgos operativos.
                 .col-lg-auto.order-2
                   figure
                     img(src="@/assets/curso/temas/t4/img14.svg", alt="" style="max-width: 130px").m-auto
@@ -177,7 +177,7 @@
           Separador
           #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 4.2 Técnicas de #[i prompting]
-          p.mb-5 Las técnicas de prompting se definen como estrategias metodológicas aplicadas al lenguaje natural para guiar el proceso de inferencia de la inteligencia artificial. Su propósito es asegurar que la salida generada sea pertinente, coherente y verificable. Estas técnicas se clasifican según su nivel de complejidad y el tipo de razonamiento que exigen al modelo (academia-ia.com, 2024).
+          p.mb-5 Las técnicas de #[i prompting] se definen como estrategias metodológicas aplicadas al lenguaje natural para guiar el proceso de inferencia de la inteligencia artificial. Su propósito es asegurar que la salida generada sea pertinente, coherente y verificable. Estas técnicas se clasifican según su nivel de complejidad y el tipo de razonamiento que exigen al modelo (academia-ia.com, 2024).
           .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
             .col-lg-auto
               figure
@@ -210,7 +210,7 @@
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t4/img17.png', alt='' style="max-width: 500px").m-auto
-      p.mb-5 Estas estrategias permiten ajustar el comportamiento del modelo mediante ejemplos progresivos, lo que mejora la consistencia del output en tareas repetitivas o altamente especializadas.
+      p.mb-5 Estas estrategias permiten ajustar el comportamiento del modelo mediante ejemplos progresivos, lo que mejora la consistencia del #[i output] en tareas repetitivas o altamente especializadas.
       .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
           figure
@@ -224,7 +224,7 @@
         .row(titulo="<em>Tree of Thoughts</em> (ToT - árbol de pensamiento)").ajuste-cajaAcordion.ajuste-vineta
           p.mb-3 Representa una evolución del CoT. Permite explorar varias rutas de razonamiento y comparar soluciones tentativas antes de consolidar una respuesta final. Es útil en resolución deliberada de problemas complejos.
         .row(titulo="<em>Self-Consistency</em> (autoconsistencia)").ajuste-cajaAcordion.ajuste-vineta
-          p.mb-3 El modelo genera varias rutas de solución para un mismo prompt y luego selecciona la respuesta más consistente. Esta técnica permite estimar la estabilidad de la respuesta generada.
+          p.mb-3 El modelo genera varias rutas de solución para un mismo #[i prompt] y luego selecciona la respuesta más consistente. Esta técnica permite estimar la estabilidad de la respuesta generada.
         .row(titulo="<em>Skeleton-of-Thought</em> (esqueleto de pensamiento)").ajuste-cajaAcordion.ajuste-vineta
           p.mb-3 Consiste en construir primero una estructura general o esquema base, que luego se desarrolla con mayor detalle. Es útil para producir documentos extensos, organizados y coherentes.
       p.mb-5 El uso adecuado de estas técnicas fortalece la calidad de las respuestas generadas por la IA, especialmente en tareas que requieren precisión, trazabilidad y razonamiento estructurado.
@@ -293,7 +293,7 @@
               :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img20.jpg')})` }")
             .bloque-texto-g__texto.p-4
               p.mb-0 El propósito principal de esta técnica consiste en limitar el espacio de posibles respuestas del modelo, garantizando que #[b el #[i output]] permanezca dentro de parámetros temáticos, éticos y de veracidad previamente establecidos.
-          p.mb-5 En términos operativos, los rails funcionan como principios de control codificados mediante instrucciones explícitas y mandatos imperativos dentro del prompt. Estas restricciones orientan el razonamiento del modelo y reducen riesgos asociados a desinformación, respuestas especulativas o generación de contenido inseguro.
+          p.mb-5 En términos operativos, los #[i rails] funcionan como principios de control codificados mediante instrucciones explícitas y mandatos imperativos dentro del #[i prompt]. Estas restricciones orientan el razonamiento del modelo y reducen riesgos asociados a desinformación, respuestas especulativas o generación de contenido inseguro.
           .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
             h4.mb-0 Clasificación técnica de los #[i rails]
           p.mb-5 En entornos corporativos y de alta precisión, los #[i rails] se clasifican en diferentes categorías según su propósito funcional. Los siguientes tipos de #[i rails] son utilizados con frecuencia en implementaciones avanzadas:
@@ -325,7 +325,7 @@
         .px-5
           .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
             h4.mb-0 Implementación y el “silencio estratégico”
-          p.mb-5 Una de las aplicaciones más avanzadas de los rails es la instrucción de abstención o silencio estratégico. En lugar de permitir que el modelo “rellene los vacíos” con información inventada ante la falta de datos, se le ordena explícitamente indicar cuando la información proporcionada es insuficiente para responder con un alto grado de confianza. A continuación, se presenta un ejemplo de directriz técnica:
+          p.mb-5 Una de las aplicaciones más avanzadas de los #[i rails] es la instrucción de abstención o silencio estratégico. En lugar de permitir que el modelo “rellene los vacíos” con información inventada ante la falta de datos, se le ordena explícitamente indicar cuando la información proporcionada es insuficiente para responder con un alto grado de confianza. A continuación, se presenta un ejemplo de directriz técnica:
           .row.justify-content-center.mb-5
             .col-xl-10
               .box___style_5(data-aos="zoom-in")
@@ -338,7 +338,7 @@
                     p.mb-0 “Si la información contenida en los extractos adjuntos no es suficiente para responder la consulta, indíquelo explícitamente y no utilice su memoria interna”.
           .titles___box_cuarto_nivel.mb-5(data-aos="fade-right")   
             h4.mb-0 Aplicación en el sector productivo 
-          p.mb-5 En sectores de alta responsabilidad, como el jurídico o el de salud, los rails constituyen una capa de seguridad indispensable.
+          p.mb-5 En sectores de alta responsabilidad, como el jurídico o el de salud, los #[i rails] constituyen una capa de seguridad indispensable.
           .row.justify-content-center.mb-5
             .col-xl-8
               .box___style_5.fit___box_4(data-aos="zoom-in")
@@ -347,7 +347,7 @@
                     figure
                       img(src='@/assets/curso/temas/t4/img23.jpg', alt='').m-auto
                   .col-xl.fit___box_container
-                    p.mb-0 #[b Por ejemplo:] al solicitar el análisis de un contrato, pueden aplicarse rails de veracidad exigiendo que el modelo cite textualmente el fragmento exacto que respalda cada conclusión.
+                    p.mb-0 #[b Por ejemplo:] al solicitar el análisis de un contrato, pueden aplicarse #[i rails] de veracidad exigiendo que el modelo cite textualmente el fragmento exacto que respalda cada conclusión.
           p.mb-5 Esto no solo mejora la precisión, sino que también facilita la auditoría y la supervisión humana experta, que continúa siendo el pilar de la integración responsable de la IA.
           .row.justify-content-center.mb-0
             .col-xl-8
