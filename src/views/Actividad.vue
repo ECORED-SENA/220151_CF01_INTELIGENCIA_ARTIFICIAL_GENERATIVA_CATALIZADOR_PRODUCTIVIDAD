@@ -273,7 +273,7 @@ export default {
             {
               id: 'b',
               texto: 'Unidades GPU y TPU.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'c',

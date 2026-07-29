@@ -159,7 +159,7 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Resultado:] se elimina el error humano asociado a la clasificación manual y se reduce el esfuerzo operativo en un 95 %, permitiendo que el personal administrativo concentre sus actividades en supervisión y gestión de proveedores.
+                | #[b Resultado:] se elimina el error humano asociado a la clasificación manual y se reduce el esfuerzo operativo en un 95 %, permitiendo que el personal administrativo concentre sus actividades en supervisión y gestión de proveedores. (McKinsey y Company, 2025). 
           .col-xl-auto.col-md-9(data-aos="fade-left")
             figure
               img(src="@/assets/curso/temas/t5/img14.png", alt="alt").m-auto

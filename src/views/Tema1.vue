@@ -226,7 +226,7 @@
           li.mb-3
             span.fa-li
               i.fas.fa-check-circle
-            | #[b Resultado:] el profesional administrativo reduce el tiempo de revisión manual en un 60 %, permitiendo que el esfuerzo humano se concentre en la toma de decisiones estratégicas y en la validación de la información generada. 
+            | #[b Resultado:] el profesional administrativo reduce el tiempo de revisión manual en un 60 %, permitiendo que el esfuerzo humano se concentre en la toma de decisiones estratégicas y en la validación de la información generada.  (Microsoft, 2026).
         .box___style_7
           p.mb-0 En implementaciones avanzadas, como la IA consultiva (RAG), el modelo no depende exclusivamente de su entrenamiento previo. En estos casos, la predicción de #[i tokens] se “ancla” a fuentes de información externas y verificadas, como bases de datos legislativas o repositorios institucionales, lo que reduce significativamente el riesgo de generar información falsa o “alucinaciones” (Jara Rey, 2024).
       Separador

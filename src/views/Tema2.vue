@@ -196,7 +196,7 @@
           li.mb-3
             span.fa-li
               i.fas.fa-check-circle
-            | #[b Resultado:] se logra una reducción aproximada del 40 % en el esfuerzo manual requerido para la migración, permitiendo que el equipo de ingeniería concentre sus actividades en validación lógica, pruebas de integración y control de calidad del nuevo sistema.
+            | #[b Resultado:] se logra una reducción aproximada del 40 % en el esfuerzo manual requerido para la migración, permitiendo que el equipo de ingeniería concentre sus actividades en validación lógica, pruebas de integración y control de calidad del nuevo sistema. (Brynjolfsson et al., 2023).
       p.mb-0 Este tipo de implementación evidencia cómo la IAG puede integrarse estratégicamente en procesos de modernización tecnológica, acelerando ciclos de desarrollo y fortaleciendo la productividad organizacional.
 
 </template>

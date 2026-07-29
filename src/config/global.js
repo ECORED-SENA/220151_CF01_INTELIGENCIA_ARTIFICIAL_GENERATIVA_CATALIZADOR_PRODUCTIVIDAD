@@ -313,6 +313,21 @@ export default {
         'República de Colombia. (2012). Ley Estatutaria 1581 de 2012. ',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981',
     },
+    {
+      referencia:
+        'Microsoft. (2026). Agents, human agency, and the opportunity for every organization: 2026 Work Trend Index Annual Report. Microsoft.',
+      link: 'https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2026/05/2026_Work_Trend_Index_Annual_Report_070726_6a4e59bd9c9c3.pdf',
+    },
+    {
+      referencia:
+        'Brynjolfsson, E., Li, D., & Raymond, L. R. (2023). Generative AI at Work (Working Paper No. 31161). National Bureau of Economic Research.',
+      link: 'https://doi.org/10.3386/w31161',
+    },
+    {
+      referencia:
+        'McKinsey y Company. (2025). The state of AI: How organizations are rewiring to capture value.',
+      link: 'https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai',
+    },
   ],
   creditos: [
     {
