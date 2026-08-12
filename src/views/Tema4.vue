@@ -57,7 +57,7 @@
                   p.mb-3 Definen la estructura y presentación de la respuesta. Pueden incluir solicitudes de listas, cuadros comparativos, tablas, formato JSON o Markdown para integración en flujos automatizados.
                 .row(titulo="Audiencia").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 El tono determina el estilo lingüístico de la respuesta, por ejemplo, técnico, académico o persuasivo. La audiencia establece el perfil del receptor final, permitiendo ajustar el nivel de complejidad del lenguaje y la profundidad conceptual (Jara Rey, 2024).
-          p.mb-5 La combinación adecuada de estos componentes incrementa significativamente la calidad de las respuestas generadas por la IA y mejora la eficiencia en procesos de automatización, análisis y producción de contenido. En entornos corporativos y productivos, el diseño estratégico de prompts permite transformar modelos generalistas en herramientas altamente especializadas, capaces de responder a necesidades técnicas concretas con mayor precisión y trazabilidad.
+          p.mb-5 La combinación adecuada de estos componentes incrementa significativamente la calidad de las respuestas generadas por la IA y mejora la eficiencia en procesos de automatización, análisis y producción de contenido. En entornos corporativos y productivos, el diseño estratégico de #[i prompts] permite transformar modelos generalistas en herramientas altamente especializadas, capaces de responder a necesidades técnicas concretas con mayor precisión y trazabilidad.
           .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
             .col-lg-auto
               figure
@@ -89,7 +89,7 @@
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold < >
                       td.texto-left Funciona como marcador estructurado, similar a XML o HTML, para delimitar etiquetas o categorías de contenido.
-          p.mb-5 Su función principal consiste en establecer fronteras precisas entre instrucciones, contexto, datos de entrada y ejemplos, permitiendo que el modelo de lenguaje de gran escala (#[i Large Language Model] [LLM]) procese cada bloque de información de manera organizada y eficiente. Dentro de la ingeniería de prompts, los delimitadores desempeñan las siguientes funciones:
+          p.mb-5 Su función principal consiste en establecer fronteras precisas entre instrucciones, contexto, datos de entrada y ejemplos, permitiendo que el modelo de lenguaje de gran escala (#[i Large Language Model] [LLM]) procese cada bloque de información de manera organizada y eficiente. Dentro de la ingeniería de #[i prompts], los delimitadores desempeñan las siguientes funciones:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
