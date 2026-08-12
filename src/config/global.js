@@ -285,7 +285,7 @@ export default {
       link: 'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4144.pdf',
     },
     {
-      referencia: 'IBM. (s.f.). Azul profundo. ',
+      referencia: 'IBM. (s.f.). Deep Blue. ',
       link: 'https://www.ibm.com/history/deep-blue',
     },
     {
@@ -336,7 +336,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del Ecosistema Virtual de Recursos Educativos Digitales ',
+            'Profesional 06. Responsable del Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

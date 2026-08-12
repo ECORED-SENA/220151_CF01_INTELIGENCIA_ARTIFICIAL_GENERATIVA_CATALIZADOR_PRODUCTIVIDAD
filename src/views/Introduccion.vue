@@ -7,7 +7,7 @@
           span
             i.fas.fa-info
         h1 Introducción
-      p.mb-5 La #[b inteligencia artificial generativa (IAG)] representa un cambio de paradigma en la interacción entre el lenguaje humano y el computacional, permitiendo la creación de contenido original (texto, imagen, código y voz) mediante sistemas entrenados con volúmenes masivos de datos. En este componente, se analizan los fundamentos técnicos de los #[b modelos de lenguaje de gran escala (LLM)], su arquitectura predictiva basada en tokens y la taxonomía de las plataformas líderes en el mercado actual.
+      p.mb-5 La #[b inteligencia artificial generativa (IAG)] representa un cambio de paradigma en la interacción entre el lenguaje humano y el computacional, permitiendo la creación de contenido original (texto, imagen, código y voz) mediante sistemas entrenados con volúmenes masivos de datos. En este componente, se analizan los fundamentos técnicos de los #[b modelos de lenguaje de gran escala (LLM)], su arquitectura predictiva basada en #[i tokens] y la taxonomía de las plataformas líderes en el mercado actual.
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/intro/img1.jpg')})` }")

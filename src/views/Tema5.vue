@@ -110,8 +110,8 @@
               p.mb-0 Estos artefactos pueden incluir #[i scripts] de programación, archivos estructurados o instrucciones técnicas orientadas a interactuar con sistemas operativos, bases de datos o interfaces de programación de aplicaciones (#[i Application Programming Interfaces] [API]).
           p.mb-5 Mediante la ingeniería de #[i prompts], es posible diseñar flujos de trabajo destinados a automatizar tareas repetitivas de baja complejidad cognitiva y alto consumo de tiempo operativo. A continuación, se presentan algunos ejemplos de automatización mediante IA:
           .bg___carrusel
-            .px-5
-              SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+            .px-5(data-aos="zoom-in")
+              SlyderF(columnas="col-lg-6 col-xl-4").mb-5
                 .tarjeta.color-acento-botones.p-4
                   .row.justify-content-center.mb-3
                     .col-8

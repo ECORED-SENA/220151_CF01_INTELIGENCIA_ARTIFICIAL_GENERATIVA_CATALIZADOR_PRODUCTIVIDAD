@@ -89,8 +89,8 @@
               h3 Plataformas de propósito general y especializadas
           p.mb-5 A continuación, se sintetizan las principales plataformas y sus ámbitos de especialización:
       .bg___carrusel
-        .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+        .px-5(data-aos="zoom-in")
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-5
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-12
@@ -123,8 +123,8 @@
               p.mb-0.text-center Modelos orientados a despliegues locales o configuraciones personalizadas para organizaciones que priorizan soberanía y control de datos.
           p.mb-5 Las siguientes plataformas representan referentes especializados en modelos de código abierto y soluciones de IA consultiva para entornos corporativos y jurídicos.
       .bg___carrusel
-        .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+        .px-5(data-aos="zoom-in")
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-5
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-12

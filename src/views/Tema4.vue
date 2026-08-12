@@ -45,8 +45,8 @@
             .col-xl-auto(data-aos="fade-right")
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/temas/t4/img5.png", alt="" ).m-auto
-            .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+            .col-xl(data-aos="fade-left")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
                 .row(titulo="Instrucción").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 Corresponde a la declaración imperativa que define la tarea principal que el modelo debe ejecutar, por ejemplo: “Analice”, “Redacte”, “Clasifique” o “Depure”. Una instrucción clara reduce ambigüedades y orienta el procesamiento hacia el objetivo esperado. 
                 .row(titulo="Contexto").ajuste-cajaAcordion.ajuste-vineta
@@ -217,8 +217,8 @@
             img(src="@/assets/curso/temas/t1/img9.svg" style="max-width: 60px").m-auto
         .col
           h3 Técnicas de razonamiento lógico
-      p.mb-5 Estas estrategias orientan al modelo para estructurar mejor sus procesos de inferencia, facilitar la revisión de los resultados y reducir errores asociados a respuestas no fundamentadas.  El razonamiento lógico integra diversas técnicas fundamentales, entre las que se destacan las siguientes: 
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in").mb-4
+      p.mb-5(data-aos="zoom-in") Estas estrategias orientan al modelo para estructurar mejor sus procesos de inferencia, facilitar la revisión de los resultados y reducir errores asociados a respuestas no fundamentadas.  El razonamiento lógico integra diversas técnicas fundamentales, entre las que se destacan las siguientes: 
+      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
         .row(titulo="<em>Chain-of-Thought</em> (CoT - cadena de pensamiento)").ajuste-cajaAcordion.ajuste-vineta
           p.mb-3 Instruye al modelo para resolver un problema mediante pasos intermedios. Al descomponer una tarea compleja en una secuencia lógica, mejora la precisión en razonamientos aritméticos, deductivos o procedimentales.
         .row(titulo="<em>Tree of Thoughts</em> (ToT - árbol de pensamiento)").ajuste-cajaAcordion.ajuste-vineta
@@ -363,7 +363,7 @@
 </template>
 
 <script>
-import audio2 from '@/assets/componentes/audios/Sintesis_componente_formativo.m4a'
+import audio2 from '@/assets/componentes/audios/audio2.m4a'
 export default {
   name: 'Tema4',
   data: () => ({

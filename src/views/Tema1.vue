@@ -87,9 +87,9 @@
           .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
             h5 Figura 1.
             span Miembros del equipo Deep Blue en el partido de 1996
-          figure(data-aos="zoom-in").mb-1
-            img(src='@/assets/curso/temas/t1/img11.png', alt='Fotografía histórica del equipo desarrollador de Deep Blue durante el enfrentamiento de ajedrez contra Garry Kasparov, relacionada con la evolución de la inteligencia artificial. ').m-auto
-          figcaption(data-aos="zoom-in") #[b Nota.] Tomado de IBM Corporation. (s. f.). Deep Blue. IBM.
+          figure(data-aos="zoom-in")
+            img.mb-1(src='@/assets/curso/temas/t1/img11.png', alt='Fotografía histórica del equipo desarrollador de Deep Blue durante el enfrentamiento de ajedrez contra Garry Kasparov, relacionada con la evolución de la inteligencia artificial. ').m-auto
+            figcaption(data-aos="zoom-in") #[b Nota.] Tomado de IBM Corporation. (s. f.). Deep Blue. IBM.
       .color___box_2
         .px-5
           .row.justify-content-center.align-items-center.mb-5
@@ -370,8 +370,8 @@
             .col-xl-auto(data-aos="fade-right")
               figure.d-none.d-xl-block
                 img(src="@/assets/curso/temas/t1/img34.png", alt="" ).m-auto
-            .col-xl
-              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+            .col-xl(data-aos="fade-left")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
                 .row(titulo="Unidades de procesamiento (GPU y TPU)").ajuste-cajaAcordion.ajuste-vineta
                   p.mb-3 La infraestructura se apoya en Unidades de Procesamiento Gráfico (GPU), como las arquitecturas H100 de NVIDIA, y en Unidades de Procesamiento de Tensores (TPU) de Google. Estos componentes están diseñados para optimizar operaciones matriciales complejas propias de las redes neuronales profundas.
                 .row(titulo="Almacenamiento vectorial").ajuste-cajaAcordion.ajuste-vineta
@@ -455,7 +455,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/componentes/audios/Modalidades_implementacion_SaaS_entornos_inteligencia_artificial.mp3'
+import audio1 from '@/assets/componentes/audios/audio1.mp3'
 export default {
   name: 'Tema1',
   data: () => ({
